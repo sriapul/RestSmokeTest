@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="TDMSKUValidation" parallel="methods" thread-count="1">
+    <test name="Command line test" preserve-order="false">
+        <classes>
+            <class name="com.SmokeTest"/>
+        </classes>
+    </test>
+</suite>
